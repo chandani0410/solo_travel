@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Header CSS */
+
+.head{
+  background-color: #F55A5A;
+  width: 100%;  
+}
+
+.header{
+  display: inline-flex;
+  align-items: center;
+}
+
+.world-logo{
+  height: 24px;
+  width: 24px;
+  flex-direction: row;
+  padding: 10px;
+  text-align: center;
+}
+
+.journal-head{
+  flex-direction: row;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* destination card css */
+
+.location-card{
+  /* margin: auto; */
+  padding: 40px;
+  display: inline-flex;
+  width: fill;
+}
+
+.image-location{
+  align-items: top;
+  /* margin: auto; */
+  /* height: min-content; */
+}
+.location-image{
+  height: fit-content;
+}
+
+.location-detail{
+  margin-left: 5px;
+  text-align: left;
+  padding: 0px  10px;
+  width: 100%;
+  
+}
+
+.location-map{
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+  height:20px;
+  font-size: smaller;
+}
+
+.location-country{
+  padding-left: 3px;
+  letter-spacing: 3px;
+}
+
+.location-title{
+  margin: 0%;
+  padding-top: 5px;
+}
+
+.location-dates{
+  margin: 0%;
+  padding-top: 15px;
+}
+
+.location-description{
+  min-width: 200px;
+}
+a:link{
+  margin: 0%;
+  color: #918E9B;
+}
+
+ul{
+  margin: 0%;
+  color: #918E9B;
+}
+
+hr{
+  width: 80%;
+  align-self: center;
+}
+.gps-logo{
+  height: 12px;
+  width: 8px;
+}
+
+.journal{
+  margin:auto;
+  /* padding: 40px; */
+}
